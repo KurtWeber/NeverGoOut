@@ -1,20 +1,24 @@
 ﻿body {
     Background-color: burlywood;
     font-family:Arial;
-    margin: 0cm 10cm 0cm 10cm;
+    margin: 0cm 10cm 0cm 10cm;    
 }
-.centerclass {
+ul{
+    list-style:none; 
+}
+.wordcenter {
     text-align:center;
-}
-ul {
-    list-style:none;
 }
 li::first-letter {
     font-size: 20px;
 }
-.dotted {
-    border-bottom: dotted;
+.borderdots{
+    border:dotted;
 }
-.dotted2 {
-    border-style: dotted;
+h1{
+    border-bottom:dotted;
+}
+div {
+    background-color:antiquewhite;
+    border:dotted;
 }
