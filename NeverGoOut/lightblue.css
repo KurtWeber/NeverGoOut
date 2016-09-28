@@ -1,0 +1,16 @@
+﻿body {
+    background-color:lightblue;
+    font-family: Arial;
+    margin: 0cm 10cm 0cm 10cm;
+    
+}
+.centertext{
+    text-align:center;
+}
+li::first-letter {
+
+    font-size:20px
+}
+ul {
+    list-style:none;
+}
